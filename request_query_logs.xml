@@ -1,0 +1,1306 @@
+<list>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>IT100</id>
+        <desc>Update subject (esvsebsrbs).</desc>
+        <query> update subjects set description = &apos;esvsebsrbs&apos;,lect_units = 3,lab_units=0,access_status=&apos;Active&apos;,program_facilitator=&apos;ICE&apos; where id = &apos;IT100&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>01:35:24 AM</time>
+    <desc>Update subject (esvsebsrbs).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>1</id>
+        <desc>Update teacher (Dony Dongiapon).</desc>
+        <query>update teachers set firstname = &apos;Dony&apos;, lastname = &apos;Dongiapon&apos;,gender = &apos;Male&apos;, access_status = &apos;Active&apos;,institute_id = &apos;ICE&apos; where id = &apos;1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>01:31:22 AM</time>
+    <desc>Update teacher (Dony Dongiapon).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>1</id>
+        <desc>Update teacher (Dony Dongiaponw).</desc>
+        <query>update teachers set firstname = &apos;Dony&apos;, lastname = &apos;Dongiaponw&apos;,gender = &apos;Male&apos;, access_status = &apos;Active&apos;,institute_id = &apos;ICE&apos; where id = &apos;1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>01:31:10 AM</time>
+    <desc>Update teacher (Dony Dongiaponw).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>ML1</id>
+        <desc>Add subject (Multimedia Lab 1)</desc>
+        <query>Call addRoom(&apos;ML1&apos;,&apos;Multimedia Lab 1&apos;,&apos;ICE&apos;,&apos;Active&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>09:59:29 AM</time>
+    <desc>Add subject (Multimedia Lab 1)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>ML1</id>
+        <desc>Update subject (Multimedia Lab 1).</desc>
+        <query>update rooms set description = &apos;Multimedia Lab 1&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Active&apos; where id = &apos;ML1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>10:37:09 AM</time>
+    <desc>Update subject (Multimedia Lab 1).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>CL3</id>
+        <desc>Update subject (Comp Lab 3).</desc>
+        <query>update rooms set description = &apos;Comp Lab 3&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Archived&apos; where id = &apos;CL3&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>10:37:17 AM</time>
+    <desc>Update subject (Comp Lab 3).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>CL3</id>
+        <desc>Update subject (Comp Lab 3).</desc>
+        <query>update rooms set description = &apos;Comp Lab 3&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Active&apos; where id = &apos;CL3&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>10:37:24 AM</time>
+    <desc>Update subject (Comp Lab 3).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>CL1</id>
+        <desc>Update subject (Computer Lab 1).</desc>
+        <query>update rooms set description = &apos;Computer Lab 1&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Active&apos; where id = &apos;CL1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>10:37:31 AM</time>
+    <desc>Update subject (Computer Lab 1).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>BLAH</id>
+        <desc>Add subject (ahfa)</desc>
+        <query>Call addRoom(&apos;BLAH&apos;,&apos;ahfa&apos;,&apos;ICE&apos;,&apos;Active&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 4, 16</date>
+    <time>10:56:23 AM</time>
+    <desc>Add subject (ahfa)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>EDP</id>
+        <desc>Add new Program/Course (Electronic Data Processing).</desc>
+        <query>CALL addProgram(&apos;EDP&apos;,&apos;Electronic Data Processing&apos;,&apos;Active&apos;,&apos;ICE&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 6, 16</date>
+    <time>09:15:37 PM</time>
+    <desc>Add new Program/Course (Electronic Data Processing).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>BSBA</id>
+        <desc>Add new Program/Course (Bachelor of Science in Business Administration).</desc>
+        <query>CALL addProgram(&apos;BSBA&apos;,&apos;Bachelor of Science in Business Administration&apos;,&apos;Active&apos;,&apos;IBPA&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 6, 16</date>
+    <time>09:19:36 PM</time>
+    <desc>Add new Program/Course (Bachelor of Science in Business Administration).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>EDP</id>
+        <desc>Update program (Electronic Data Processings).</desc>
+        <query> update programs set description = &apos;Electronic Data Processings&apos;,access_status=&apos;Active&apos;,facilitator=&apos;ICE&apos; where id = &apos;EDP&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 6, 16</date>
+    <time>09:39:14 PM</time>
+    <desc>Update program (Electronic Data Processings).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>EDP</id>
+        <desc>Update program (Electronic Data Processing).</desc>
+        <query> update programs set description = &apos;Electronic Data Processing&apos;,access_status=&apos;Active&apos;,facilitator=&apos;ICE&apos; where id = &apos;EDP&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 6, 16</date>
+    <time>09:40:43 PM</time>
+    <desc>Update program (Electronic Data Processing).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL2&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL2; No conflict detected within the time span (7:00 AM-8:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL2&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 1 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL2&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>10:59:08 AM</time>
+    <desc>Pin schedule in room CL2 (7:00 AM - 8:30 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>MATH101</id>
+        <desc>Add new subject (Algebra).</desc>
+        <query>call addSubject(&apos;MATH101&apos;,&apos;Algebra&apos;,3,0,&apos;ICE&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>08:47:21 PM</time>
+    <desc>Add new subject (Algebra).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>MATH101</id>
+        <desc>Update subject (Algebra).</desc>
+        <query> update subjects set description = &apos;Algebra&apos;,lect_units = 3,lab_units=0,program_facilitator=&apos;ICE&apos; where id = &apos;MATH101&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>08:47:50 PM</time>
+    <desc>Update subject (Algebra).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>10</id>
+        <desc>Update teacher (Jay Paul Gonzagas).</desc>
+        <query>update teachers set firstname = &apos;Jay Paul&apos;, lastname = &apos;Gonzagas&apos;,gender = &apos;Male&apos;, institute_id = &apos;ICE&apos; where id = &apos;10&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>09:05:44 PM</time>
+    <desc>Update teacher (Jay Paul Gonzagas).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>10</id>
+        <desc>Update teacher (Jay Paul Gonzaga).</desc>
+        <query>update teachers set firstname = &apos;Jay Paul&apos;, lastname = &apos;Gonzaga&apos;,gender = &apos;Male&apos;, institute_id = &apos;ICE&apos; where id = &apos;10&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>09:05:48 PM</time>
+    <desc>Update teacher (Jay Paul Gonzaga).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>aef</id>
+        <desc>Add new teacher (aef awf).</desc>
+        <query>call addTeacher(&apos;aef&apos;,&apos;aef&apos;,&apos;awf&apos;,&apos;Male&apos;,&apos;ICE&apos;)</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Fri, Apr 8, 16</date>
+    <time>09:05:53 PM</time>
+    <desc>Add new teacher (aef awf).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL2; No conflict detected within the time span (8:30 AM-10:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL2; No conflict detected within the time span (8:30 AM-10:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL2; No conflict detected within the time span (8:30 AM-10:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:30&apos;,&apos;10:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;MATH101&apos;,&apos;CL2&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 9, 16</date>
+    <time>07:56:54 AM</time>
+    <desc>Pin schedule in room CL2 (8:30 AM - 10:00 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 1 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 1 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;1&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 9, 16</date>
+    <time>08:03:27 AM</time>
+    <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (11:00 AM-11:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-2A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>Conflict detected; Wed in room CL1, IT114 (11:00 AM-12:00 PM).</remarks>
+        <success>false</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-2A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>Conflict detected; Fri in room CL1, IT114 (11:00 AM-12:00 PM).</remarks>
+        <success>false</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BSIT-2A&apos;,&apos;IT123&apos;,&apos;CL1&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-2A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 9, 16</date>
+    <time>08:04:46 AM</time>
+    <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Tue&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Tue Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Tue&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 123421-123 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Tue&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Thu&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 1) Day: Thu Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Thu&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 123421-123 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Thu&apos;,&apos;BITM-1A&apos;,&apos;IT101&apos;,&apos;CL1&apos;,&apos;123421-123&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 9, 16</date>
+    <time>08:07:39 AM</time>
+    <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (8:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;4&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: AG102; No conflict detected within the time span (8:00 AM-8:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (8:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;4&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 4 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (8:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;8:30&apos;,&apos;Mon&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;4&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BSHRM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 11, 16</date>
+    <time>08:35:36 AM</time>
+    <desc>Pin schedule in room AG102 (8:00 AM - 8:30 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: AG102; No conflict detected within the time span (11:00 AM-11:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 14 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room AG102 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BSHRM-1A&apos;,&apos;HUM1&apos;,&apos;AG102&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BSHRM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 11, 16</date>
+    <time>08:36:24 AM</time>
+    <desc>Pin schedule in room AG102 (11:00 AM - 11:30 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>88</id>
+        <desc>Remove room from H7(ICE) having time 17:30:00-18:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 88;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 11, 16</date>
+    <time>09:46:27 PM</time>
+    <desc>Remove room from H7(ICE) having time 17:30:00-18:00:00 (LEC).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>87</id>
+        <desc>Remove room from H7(ICE) having time 16:30:00-17:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 87;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 11, 16</date>
+    <time>09:46:46 PM</time>
+    <desc>Remove room from H7(ICE) having time 16:30:00-17:00:00 (LEC).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>75</id>
+        <desc>Remove room from AG102(ICE) having time 08:30:00-09:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 75;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>76</id>
+        <desc>Remove room from AG102(ICE) having time 08:30:00-09:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 76;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>77</id>
+        <desc>Remove room from AG102(ICE) having time 08:30:00-09:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 77;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Mon, Apr 11, 16</date>
+    <time>09:46:55 PM</time>
+    <desc>Remove room from AG102(ICE) having time 08:30:00-09:00:00 (LEC).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-2B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-2B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSCE-2B&apos;,&apos;IT123&apos;,&apos;CL2&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-2B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 13, 16</date>
+    <time>06:04:47 AM</time>
+    <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>CL1</id>
+        <desc>Update room (Computer Lab 1).</desc>
+        <query>update rooms set description = &apos;Computer Lab 1&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Inactive&apos; where id = &apos;CL1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 13, 16</date>
+    <time>02:44:21 PM</time>
+    <desc>Update room (Computer Lab 1).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>CL1</id>
+        <desc>Update room (Computer Lab 1).</desc>
+        <query>update rooms set description = &apos;Computer Lab 1&apos;, institute_id = &apos;ICE&apos;,access_status = &apos;Active&apos; where id = &apos;CL1&apos;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 13, 16</date>
+    <time>02:44:38 PM</time>
+    <desc>Update room (Computer Lab 1).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (8:00 AM-9:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Mon&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (8:00 AM-9:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Wed&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (8:00 AM-9:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:00&apos;,&apos;Fri&apos;,&apos;BSCE-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BSCE-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Wed, Apr 13, 16</date>
+    <time>02:47:37 PM</time>
+    <desc>Pin schedule in room CL1 (8:00 AM - 9:00 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Mon&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Wed&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL2; No conflict detected within the time span (7:00 AM-8:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 2 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:00&apos;,&apos;Fri&apos;,&apos;BSIT-1B&apos;,&apos;IT101&apos;,&apos;CL2&apos;,&apos;2&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BSIT-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Thu, Apr 14, 16</date>
+    <time>06:52:20 AM</time>
+    <desc>Pin schedule in room CL2 (7:00 AM - 8:00 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Mon&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (12:00 PM-1:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Mon&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Mon&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (12:00 PM-1:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Wed&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (12:00 PM-1:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 6 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+        <query>call addSchedule(&apos;12:00&apos;,&apos;13:00&apos;,&apos;Fri&apos;,&apos;BITM-1B&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;6&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1B ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Thu, Apr 14, 16</date>
+    <time>07:13:05 AM</time>
+    <desc>Pin schedule in room CL1 (12:00 PM - 1:00 PM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (11:30 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: aef ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (11:30 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: aef ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (11:30 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: aef ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:30&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-1A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;aef&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>08:07:13 AM</time>
+    <desc>Pin schedule in room CL1 (11:30 AM - 12:00 PM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>160</id>
+        <desc>Remove room from CL1(ICE) having time 11:30:00-12:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 160;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>161</id>
+        <desc>Remove room from CL1(ICE) having time 11:30:00-12:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 161;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>162</id>
+        <desc>Remove room from CL1(ICE) having time 11:30:00-12:00:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 162;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>09:19:26 PM</time>
+    <desc>Remove room from CL1(ICE) having time 11:30:00-12:00:00 (LEC).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (11:00 AM-11:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Mon&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-3A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (11:00 AM-11:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Wed&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-3A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (11:00 AM-11:30 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 10 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;11:30&apos;,&apos;Fri&apos;,&apos;BITM-3A&apos;,&apos;IT100&apos;,&apos;CL1&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BITM-3A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>09:20:00 PM</time>
+    <desc>Pin schedule in room CL1 (11:00 AM - 11:30 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>163</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-11:30:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 163;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>164</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-11:30:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 164;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>165</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-11:30:00 (LEC).</desc>
+        <query>Delete from class_sched where id = 165;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>09:20:10 PM</time>
+    <desc>Remove room from CL1(ICE) having time 11:00:00-11:30:00 (LEC).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 3efwe ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Mon&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BITM-4A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 3efwe ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Wed&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BITM-4A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Fri Room: CL1; No conflict detected within the time span (11:00 AM-12:00 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 3efwe ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+        <query>call addSchedule(&apos;11:00&apos;,&apos;12:00&apos;,&apos;Fri&apos;,&apos;BITM-4A&apos;,&apos;IT114&apos;,&apos;CL1&apos;,&apos;3efwe&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BITM-4A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>09:22:33 PM</time>
+    <desc>Pin schedule in room CL1 (11:00 AM - 12:00 PM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>166</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-12:00:00 (LAB).</desc>
+        <query>Delete from class_sched where id = 166;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>167</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-12:00:00 (LAB).</desc>
+        <query>Delete from class_sched where id = 167;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>168</id>
+        <desc>Remove room from CL1(ICE) having time 11:00:00-12:00:00 (LAB).</desc>
+        <query>Delete from class_sched where id = 168;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Apr 16, 16</date>
+    <time>09:22:41 PM</time>
+    <desc>Remove room from CL1(ICE) having time 11:00:00-12:00:00 (LAB).</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Tue&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Tue Room: CL1; No conflict detected within the time span (8:00 AM-10:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Tue&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 23452-235 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Tue&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1D ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Thu&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 1) Day: Thu Room: CL1; No conflict detected within the time span (8:00 AM-10:00 AM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Thu&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 23452-235 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>jeff</id>
+        <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;10:00&apos;,&apos;Thu&apos;,&apos;BITM-1D&apos;,&apos;IT158&apos;,&apos;CL1&apos;,&apos;23452-235&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LAB&apos;)</query>
+        <remarks>(Final Check) Section: BITM-1D ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Nov 5, 16</date>
+    <time>10:37:58 PM</time>
+    <desc>Pin schedule in room CL1 (8:00 AM - 10:00 AM)</desc>
+  </artemis.client__module.RequestLogData>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>160</id>
+        <desc>Remove room from CL1(ICE) having time 08:00:00-10:00:00 (LAB).</desc>
+        <query>Delete from class_sched where id = 160;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>161</id>
+        <desc>Remove room from CL1(ICE) having time 08:00:00-10:00:00 (LAB).</desc>
+        <query>Delete from class_sched where id = 161;</query>
+        <remarks>Successfuly updated the database.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Sat, Nov 5, 16
+</date>
+    <time>10:38:19 PM
+</time>
+    <desc>Remove room from CL1(ICE) having time 08:00:00-10:00:00 (LAB).</desc>
+  </artemis.client__module.RequestLogData>
+</list>

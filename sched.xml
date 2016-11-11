@@ -1,0 +1,129 @@
+<list>
+  <Schedule>
+    <days>
+      <string>Monday</string>
+      <string>Wednesday</string>
+    </days>
+    <time>8:00-9:00 AM</time>
+    <room>CL1</room>
+    <subject>Computer Programming I</subject>
+    <teacher>Albert Einstein</teacher>
+    <colorCode>
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Tuesday</string>
+      <string>Thursday</string>
+    </days>
+    <time>7:00-8:00 AM</time>
+    <room>CL3</room>
+    <subject>Computer Programming I</subject>
+    <teacher>John Lloyd</teacher>
+    <colorCode>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Monday</string>
+      <string>Wednesday</string>
+      <string>Friday</string>
+    </days>
+    <time>11:00-12:00 AM</time>
+    <room>CL6</room>
+    <subject>Sortware Engineering I</subject>
+    <teacher>Steve Jobbs</teacher>
+    <colorCode>
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Wednesday</string>
+    </days>
+    <time>12:00-1:00 PM</time>
+    <room>CL4</room>
+    <subject>History IV</subject>
+    <teacher>John Lloyd</teacher>
+    <colorCode>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Friday</string>
+    </days>
+    <time>9:00-10:00 AM</time>
+    <room>CL2</room>
+    <subject>Computer Programming IV</subject>
+    <teacher>Linus Trovaldis</teacher>
+    <colorCode>
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Tuesday</string>
+    </days>
+    <time>8:30-10:00 AM</time>
+    <room>CL1</room>
+    <subject>Computer Programming I</subject>
+    <teacher>Instructor X</teacher>
+    <colorCode>
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Tuesday</string>
+      <string>Thursday</string>
+    </days>
+    <time>11:30-1:00 AM</time>
+    <room>CL6</room>
+    <subject>English IV</subject>
+    <teacher>Angel Locsin</teacher>
+    <colorCode>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+  <Schedule>
+    <days>
+      <string>Monday</string>
+      <string>Wednesday</string>
+      <string>Friday</string>
+    </days>
+    <time>8:00-9:00 AM</time>
+    <room>CL1</room>
+    <subject>Sortware Engineering I</subject>
+    <teacher>John Lloyd</teacher>
+    <colorCode>
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+      <alpha>255</alpha>
+    </colorCode>
+  </Schedule>
+</list>

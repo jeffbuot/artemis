@@ -1,0 +1,132 @@
+<list>
+  <artemis.classes.PermissionRequest>
+    <id>1$14:56:03$2016-04-13$13</id>
+    <date>Wed, Apr 13, 16</date>
+    <note>jeff(ICE) requests to plot a schedule in AG101(IALS)</note>
+    <sender>
+      <id>1</id>
+      <firstname>Jefferson</firstname>
+      <lastname>Buot</lastname>
+      <gender>Male</gender>
+      <accessType>Institute Admin</accessType>
+      <institute>ICE</institute>
+      <accessStatus>Active</accessStatus>
+      <username>jeff</username>
+      <password>chocolate</password>
+      <sy>2015-2016 1st Semester</sy>
+      <canLogin>true</canLogin>
+    </sender>
+    <receiver>
+      <id>10</id>
+      <firstname>Danver</firstname>
+      <lastname>Palmiano</lastname>
+      <gender>Male</gender>
+      <accessType>Institute Admin</accessType>
+      <institute>IALS</institute>
+      <accessStatus>Active</accessStatus>
+      <username>danver</username>
+      <password>danver08</password>
+      <sy>2015-2016 1st Semester</sy>
+      <canLogin>true</canLogin>
+    </receiver>
+    <instituteToBeSent>IALS</instituteToBeSent>
+    <srd>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG101 (8:00 AM - 9:30 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:30&apos;,&apos;Tue&apos;,&apos;BITM-1A&apos;,&apos;IT115&apos;,&apos;AG101&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>8:00</startTime>
+        <endTime>9:30</endTime>
+        <day>Tue</day>
+        <subjectId>IT115</subjectId>
+        <roomId>AG101</roomId>
+        <teacherId>10</teacherId>
+        <section>BITM-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG101 (8:00 AM - 9:30 AM)</desc>
+        <query>call addSchedule(&apos;8:00&apos;,&apos;9:30&apos;,&apos;Thu&apos;,&apos;BITM-1A&apos;,&apos;IT115&apos;,&apos;AG101&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>8:00</startTime>
+        <endTime>9:30</endTime>
+        <day>Thu</day>
+        <subjectId>IT115</subjectId>
+        <roomId>AG101</roomId>
+        <teacherId>10</teacherId>
+        <section>BITM-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+    </srd>
+    <status>Confirmed</status>
+  </artemis.classes.PermissionRequest>
+  <artemis.classes.PermissionRequest>
+    <id>1$14:52:58$2016-04-13$12</id>
+    <date>Wed, Apr 13, 16</date>
+    <note>jeff(ICE) requests to plot a schedule in AG102(IALS)</note>
+    <sender>
+      <id>1</id>
+      <firstname>Jefferson</firstname>
+      <lastname>Buot</lastname>
+      <gender>Male</gender>
+      <accessType>Institute Admin</accessType>
+      <institute>ICE</institute>
+      <accessStatus>Active</accessStatus>
+      <username>jeff</username>
+      <password>chocolate</password>
+      <sy>2015-2016 1st Semester</sy>
+      <canLogin>true</canLogin>
+    </sender>
+    <receiver>
+      <id>10</id>
+      <firstname>Danver</firstname>
+      <lastname>Palmiano</lastname>
+      <gender>Male</gender>
+      <accessType>Institute Admin</accessType>
+      <institute>IALS</institute>
+      <accessStatus>Active</accessStatus>
+      <username>danver</username>
+      <password>danver08</password>
+      <sy>2015-2016 1st Semester</sy>
+      <canLogin>true</canLogin>
+    </receiver>
+    <instituteToBeSent>IALS</instituteToBeSent>
+    <srd>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG102 (7:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:30&apos;,&apos;Tue&apos;,&apos;BITM-1A&apos;,&apos;IT115&apos;,&apos;AG102&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>7:00</startTime>
+        <endTime>8:30</endTime>
+        <day>Tue</day>
+        <subjectId>IT115</subjectId>
+        <roomId>AG102</roomId>
+        <teacherId>10</teacherId>
+        <section>BITM-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG102 (7:00 AM - 8:30 AM)</desc>
+        <query>call addSchedule(&apos;7:00&apos;,&apos;8:30&apos;,&apos;Thu&apos;,&apos;BITM-1A&apos;,&apos;IT115&apos;,&apos;AG102&apos;,&apos;10&apos;,&apos;ICE&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>7:00</startTime>
+        <endTime>8:30</endTime>
+        <day>Thu</day>
+        <subjectId>IT115</subjectId>
+        <roomId>AG102</roomId>
+        <teacherId>10</teacherId>
+        <section>BITM-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+    </srd>
+    <status>Declined</status>
+  </artemis.classes.PermissionRequest>
+</list>
