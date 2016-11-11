@@ -1,0 +1,72 @@
+<list>
+  <artemis.classes.PermissionRequest>
+    <id>8$08:00:46
+$2016-04-13
+$0</id>
+    <date>Wed, Apr 13, 16
+</date>
+    <note>blythe(IBPA) requests to plot a schedule in AG101(IALS)</note>
+    <sender>
+      <id>8</id>
+      <firstname>Blythe</firstname>
+      <lastname>Lobrigas</lastname>
+      <gender>Male</gender>
+      <accessType>Institute Admin</accessType>
+      <institute>IBPA</institute>
+      <accessStatus>Active</accessStatus>
+      <username>blythe</username>
+      <password>capslock2293</password>
+      <sy>2015-2016 1st Semester</sy>
+      <canLogin>true</canLogin>
+    </sender>
+    <instituteToBeSent>IALS</instituteToBeSent>
+    <srd>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG101 (9:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;9:00&apos;,&apos;10:00&apos;,&apos;Mon&apos;,&apos;BSBA-1A&apos;,&apos;LEA2&apos;,&apos;AG101&apos;,&apos;3&apos;,&apos;IBPA&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>9:00</startTime>
+        <endTime>10:00</endTime>
+        <day>Mon</day>
+        <subjectId>LEA2</subjectId>
+        <roomId>AG101</roomId>
+        <teacherId>3</teacherId>
+        <section>BSBA-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG101 (9:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;9:00&apos;,&apos;10:00&apos;,&apos;Wed&apos;,&apos;BSBA-1A&apos;,&apos;LEA2&apos;,&apos;AG101&apos;,&apos;3&apos;,&apos;IBPA&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>9:00</startTime>
+        <endTime>10:00</endTime>
+        <day>Wed</day>
+        <subjectId>LEA2</subjectId>
+        <roomId>AG101</roomId>
+        <teacherId>3</teacherId>
+        <section>BSBA-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+      <artemis.sched__board__module.ScheduleRequestData>
+        <id>N/A</id>
+        <success>false</success>
+        <desc>Pin schedule in room AG101 (9:00 AM - 10:00 AM)</desc>
+        <query>call addSchedule(&apos;9:00&apos;,&apos;10:00&apos;,&apos;Fri&apos;,&apos;BSBA-1A&apos;,&apos;LEA2&apos;,&apos;AG101&apos;,&apos;3&apos;,&apos;IBPA&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks/>
+        <startTime>9:00</startTime>
+        <endTime>10:00</endTime>
+        <day>Fri</day>
+        <subjectId>LEA2</subjectId>
+        <roomId>AG101</roomId>
+        <teacherId>3</teacherId>
+        <section>BSBA-1A</section>
+        <schoolYear>2015-2016 1st Semester</schoolYear>
+      </artemis.sched__board__module.ScheduleRequestData>
+    </srd>
+    <status>Pending</status>
+  </artemis.classes.PermissionRequest>
+</list>

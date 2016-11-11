@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2016-04-14T09:28:49 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FinalGrade" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="393022be-fee4-4f0e-a88f-1404fe697062">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (3)"/>
+	<parameter name="img_url" class="java.lang.String"/>
+	<parameter name="sy" class="java.lang.String"/>
+	<parameter name="institute" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="subject" class="java.lang.String"/>
+	<field name="section" class="java.lang.String"/>
+	<field name="lec" class="java.lang.String"/>
+	<field name="lab" class="java.lang.String"/>
+	<field name="session" class="java.lang.String"/>
+	<field name="time" class="java.lang.String"/>
+	<field name="days" class="java.lang.String"/>
+	<field name="room" class="java.lang.String"/>
+	<field name="faculty" class="java.lang.String"/>
+	<field name="totalUnitLoad" class="java.lang.String"/>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{faculty}]]></groupExpression>
+		<groupHeader>
+			<band height="67">
+				<textField>
+					<reportElement x="0" y="20" width="280" height="20" uuid="2ced0ef8-2a51-4ef1-bdf8-835549fc057a"/>
+					<textElement verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Faculty Name: "+$F{faculty}]]></textFieldExpression>
+				</textField>
+				<frame>
+					<reportElement mode="Opaque" x="0" y="42" width="554" height="25" backcolor="#E0E0E0" uuid="99c0768a-a711-45f7-a02b-b1a99ecc8082"/>
+					<staticText>
+						<reportElement x="0" y="0" width="79" height="24" uuid="ea4f365f-adf1-4349-b89b-1491b54d07c3"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Subject]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="80" y="0" width="79" height="24" uuid="d0b5a357-433b-440f-8015-05b06a8a1fce"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Section]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="160" y="0" width="50" height="24" uuid="d54ee019-2a33-49ec-9763-2e641e26491e"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Session]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="210" y="0" width="30" height="24" uuid="22fb1d87-4e77-4ab0-9a66-384932e7ab31"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Lec]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="240" y="0" width="30" height="24" uuid="743a7d5e-c7cf-424b-b2ce-39f9c74decf0"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Lab]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="270" y="0" width="120" height="24" uuid="8a024d81-a298-4efc-a926-f6185ad63791"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Time]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="390" y="0" width="90" height="24" uuid="710357c0-11dc-4134-9d3d-2eacbb48f460"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Days]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="480" y="0" width="74" height="24" uuid="8de80148-6e7d-43be-8ba5-45539bc23779"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Room]]></text>
+					</staticText>
+				</frame>
+				<textField>
+					<reportElement x="360" y="20" width="194" height="20" uuid="a79b54bc-bb9c-4738-b37f-623047e10c4d"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Total Faculty Load: "+$F{totalUnitLoad}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="143" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="56" width="555" height="20" uuid="2b3256f3-a556-4139-b5b4-dab6af937515"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Davao Oriental State College of Science & Technology]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="69" width="555" height="14" uuid="c280e534-4322-487b-9b72-131c5e94b5be">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="10" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Guang-guang, Dahican, Mati City, Davao Oriental]]></text>
+			</staticText>
+			<image>
+				<reportElement x="253" y="0" width="49" height="50" uuid="d714ac28-e07b-40dc-8a7b-161e74120586"/>
+				<imageExpression><![CDATA[$P{img_url}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="0" y="122" width="554" height="16" uuid="b486eaab-e61d-4458-a38b-a1df5c56ed83">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["SY "+$P{sy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="90" width="555" height="18" uuid="46033439-e800-476c-8176-6a97a223a963">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher Load Summary Report]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="105" width="552" height="16" uuid="d801800d-43a4-4ab0-9286-cc451cbc541b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{institute}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="19" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="554" height="18" backcolor="#F7F7F7" uuid="f6c5a677-88e3-4fee-b09c-3e9534a04781">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="1" width="78" height="17" uuid="9a8c3f1d-d49e-4dd3-ba48-d088d62eda7a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{subject}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="1" width="78" height="17" uuid="4c7815e0-2694-4012-b2d5-03dd01a2a57f"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{section}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="1" width="50" height="17" uuid="20b196a4-ed41-4882-870d-3534e3165513"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{session}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="1" width="30" height="17" uuid="cd43aed1-c043-4c49-9a07-2a4dbec6b909"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lec}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="1" width="30" height="17" uuid="2a6073f2-1164-4539-8e78-e7f4324517b3"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lab}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="1" width="120" height="17" uuid="fec22616-cb33-4703-9537-6a80a954c1a5"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{time}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="0" width="90" height="17" uuid="84a2595a-9c21-48d0-a50b-6af618303756"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{days}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="1" width="75" height="17" uuid="ebc71e97-5d83-4477-aacf-35bce8a1f77d"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{room}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="92"/>
+	</columnFooter>
+</jasperReport>
