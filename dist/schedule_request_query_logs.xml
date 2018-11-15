@@ -1,0 +1,53 @@
+<list>
+  <artemis.client__module.RequestLogData>
+    <q>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Mon&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Mon Room: CL2; No conflict detected within the time span (1:30 PM-2:30 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Mon&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 14 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Mon&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BAT-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Wed&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 1) Day: Wed Room: CL2; No conflict detected within the time span (1:30 PM-2:30 PM).</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Wed&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Check 2) Teacher Id: 14 ; No conflict detected within the instructor&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+      <artemis.classes.QueryData>
+        <id>$~Server~$</id>
+        <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+        <query>call addSchedule(&apos;13:30&apos;,&apos;14:30&apos;,&apos;Wed&apos;,&apos;BAT-1A&apos;,&apos;POLSCI 1&apos;,&apos;CL2&apos;,&apos;14&apos;,&apos;IALS&apos;,&apos;2015-2016 1st Semester&apos;,&apos;LEC&apos;)</query>
+        <remarks>(Final Check) Section: BAT-1A ; No conflict detected within the section&apos;s schedule.</remarks>
+        <success>true</success>
+      </artemis.classes.QueryData>
+    </q>
+    <date>Thu, Jul 14, 16
+</date>
+    <time>05:04:04 PM
+</time>
+    <desc>Pin schedule in room CL2 (1:30 PM - 2:30 PM)</desc>
+  </artemis.client__module.RequestLogData>
+</list>

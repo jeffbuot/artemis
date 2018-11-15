@@ -1,0 +1,23 @@
+/*
+Copyright (c) FOREVER, Jefferson Buot. All rights reserved.
+Build | Imagine | Think | Explore -> By: Jeff 
+*/
+/* 
+    Created on : Aug 10, 2015, 10:26:52 PM
+    Author     : Jeff
+*/
+
+/*.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}*/
+.chart-alternative-row-fill {
+    -fx-fill: #efefef;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}

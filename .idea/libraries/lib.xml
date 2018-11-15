@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/syntheticaAluOxide.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/weblaf-1.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/xstream-1.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/xmlpull-1.1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/Filters.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/bridj-0.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/Jeff_Buot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/synthetica.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/webcam-capture-0.3.11-20150219.205650-6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

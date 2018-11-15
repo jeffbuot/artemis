@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2016-04-11T13:21:59 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Faculty_Sched" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="97bae781-7dc1-4779-9f14-77a9e0179f6f">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Artemis"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="89bfe6bc-64e7-4220-84d4-7137d42d565a">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Artemis2"/>
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<parameter name="tid" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT artemis_db.class_sched.id,
+	artemis_db.class_sched.start_time,
+  artemis_db.subjects.lect_units,
+  artemis_db.subjects.lab_units,
+	artemis_db.class_sched.end_time,
+	GROUP_CONCAT(DISTINCT artemis_db.class_sched.`day`),
+	artemis_db.class_sched.section,
+	artemis_db.class_sched.subject_id,
+	artemis_db.class_sched.room_id,
+	artemis_db.class_sched.teacher_id,
+	artemis_db.class_sched.institute_id,
+	artemis_db.class_sched.sy
+FROM artemis_db.class_sched, artemis_db.subjects
+WHERE artemis_db.subjects.id=artemis_db.class_sched.subject_id
+AND artemis_db.class_sched.teacher_id= $P{tid} 
+GROUP BY artemis_db.class_sched.subject_id]]>
+		</queryString>
+		<field name="id" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="start_time" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="lect_units" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="lab_units" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="end_time" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="GROUP_CONCAT(DISTINCT artemis_db.class_sched.`day`)" class="java.lang.String"/>
+		<field name="section" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="subject_id" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="room_id" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="teacher_id" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="institute_id" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sy" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="tid" class="java.lang.String"/>
+	<parameter name="facultyName" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT artemis_db.class_sched.id,
+	artemis_db.class_sched.start_time,
+  artemis_db.subjects.lect_units,
+  artemis_db.subjects.lab_units,
+	artemis_db.class_sched.end_time,
+	GROUP_CONCAT(DISTINCT artemis_db.class_sched.`day`),
+	artemis_db.class_sched.section,
+	artemis_db.class_sched.subject_id,
+	artemis_db.class_sched.room_id,
+	artemis_db.class_sched.teacher_id,
+	artemis_db.class_sched.institute_id,
+	artemis_db.class_sched.sy
+FROM artemis_db.class_sched, artemis_db.subjects
+WHERE artemis_db.subjects.id=artemis_db.class_sched.subject_id
+AND artemis_db.class_sched.teacher_id= $P{tid} 
+GROUP BY artemis_db.class_sched.subject_id]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="470" y="0" width="100" height="30" uuid="563225c7-d11e-4ddb-b2e8-f8e4689f37c1"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="40" width="570" height="30" uuid="8615d5d0-cdea-47b9-863c-eff051f22382"/>
+				<textElement textAlignment="Center">
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Faculty Loading]]></text>
+			</staticText>
+		</band>
+	</title>
+	<summary>
+		<band height="260" splitType="Stretch">
+			<componentElement>
+				<reportElement x="1" y="40" width="570" height="70" uuid="2cbca1a4-7670-41d3-8c92-aa558e2d0653">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="478308b5-6937-4555-ab38-db80a144b1a1">
+						<datasetParameter name="tid">
+							<datasetParameterExpression><![CDATA[$P{tid}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="130" uuid="04a6a8ff-1520-4ca7-90aa-9e5e0f2877ac">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="30" uuid="bc42b960-072b-46e2-b6a9-6a70fdbf5545"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Subject]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="130" height="30" uuid="a1c04007-2806-4d13-a298-7ebea7906839"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{subject_id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f9c9388c-f755-4a5d-b9c2-e66ad2dd2e5e">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="5006141e-9ff1-4912-87fa-9e6185b5f9e3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Section]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="91ca0c59-42e1-4e18-ae86-b46f860e533b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{section}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="3c3d3c41-11da-40cd-b1f7-a5cfb06c3ce0">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="48006458-cd9a-4ce9-8968-f60b2cb92e7a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Lab]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="2edae21a-bf73-4493-88b0-f6da8213b56b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lab_units}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="190a0da9-1ce8-456b-8abe-d2b662de8a8e">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="de2a6748-7a90-4c2e-b046-ce2d5a66d22d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Lec]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="9d40fc5f-e8ab-4c93-8535-5556dc50f5ff"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lect_units}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="6abb0d7b-c876-4c48-9c8d-1c77f4c802cd">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="150" height="30" uuid="5949cdfd-2818-4f40-983e-4c54506f1f26"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Time]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="150" height="30" uuid="3e31ccef-ff7c-4d85-af5d-db2539c7dbd6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[(Integer.parseInt($F{start_time}.split(":")[0])>11?
+(Integer.parseInt($F{start_time}.split(":")[0])>12?Integer.parseInt($F{start_time}.split(":")[0])-12:12)+":"+$F{start_time}.split(":")[1]+" PM"
+:
+($F{start_time}.split(":")[0]=="00"?12:$F{start_time}.split(":")[0])+":"+$F{start_time}.split(":")[1]+" AM")+" - "
++
+(Integer.parseInt($F{end_time}.split(":")[0])>11?
+(Integer.parseInt($F{end_time}.split(":")[0])>12?Integer.parseInt($F{end_time}.split(":")[0])-12:12)+":"+$F{end_time}.split(":")[1]+" PM"
+:
+($F{end_time}.split(":")[0]=="00"?12:$F{end_time}.split(":")[0])+":"+$F{end_time}.split(":")[1]+" AM")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="3746d8ba-1c40-4d40-89f4-705d9447a737">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="f6c11ddc-c72a-4a63-84a2-4342e1613615"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Day]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="55b99828-b084-4ef5-a9a0-769000d0f25b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{GROUP_CONCAT(DISTINCT artemis_db.class_sched.`day`)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="b7589b54-ad5a-4f6e-9f1f-3643cada2984">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="335410ab-e671-4a16-997c-8391973a83e4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<text><![CDATA[Room]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="8d944f2c-bb18-4565-bb2b-ba889f1f2acb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{room_id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField>
+				<reportElement x="0" y="4" width="280" height="30" uuid="6763bf82-c948-4aa5-8aa8-b54f9172e863"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Faculty Name: "+$P{facultyName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
